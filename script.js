@@ -1,12 +1,37 @@
-/*     console.log("Hello World") */
-    document.write("Hello World, Manipulando o DOM <br>")
-    /* alert("Hello World com Eventos") */
-    document.write("Nome: Júlia Batista Barros <br>")
-    document.write("Ano: 2° ano <br>")
-    document.write("Curso: Informática <br>")
-    document.write("Localidade: Crateús <br>")
+/* varíaveis em JavaScript */
+var num1 = 2 /* criou um tipo de variável chamado "num1" */
+var num2 = 4
+var soma = num1 + num2
+document.write(soma, "<br>")
 
-    alert("Nome: Júlia Batista Barros")
-    alert("Ano: 2B")
-    alert("Curso: Informática")
-    alert("Localidade: Crateús")
+let num3 = 4
+let num4 = 6
+let soma2 = num3 + num4
+document.write(soma2, "<br>")
+
+/*
+ atribuição
+    =
+comparação
+    ==
+    ex.: 1 == '1'//true
+comparação de valores e comparação de tipo
+    === 
+    ex.: 1 === 1//true
+*/
+
+var nome = "pedro"
+var idade = 15
+document.write("Nome: ", nome, "<br>", "Idade: ", +  idade)
+
+const PI = 3.141316
+const LUZ = 299.867
+const GRAVIDADE  = 9.8
+
+var numero = 7
+var numero2 = 9
+var subtracao = numero - numero2
+document.write("<br>------------------------")
+document.write("<br> SUBTRAÇÃO: ", subtracao)
+
+var 
